@@ -1,2 +1,2 @@
-# BnFLS
-scripts belonging to BnFLSs publication
+# BnaFLSs 
+scripts belonging to BnaFLSs publication
