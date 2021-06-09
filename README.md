@@ -30,7 +30,9 @@ Usage:
 ```
 
 `--in` txt-file that contains a set of gene IDs for which co-expressed genes should be identified, where one gene ID is listed in one row. The gene ID must match with the gene IDs in the files given at `--exp` and `--ann`.
+
 `--exp` count table/gene expression file containing e.g. the TPM values where the columns contain the RNA-Seq sample IDs and the rows contain the gene IDs. Thus more than one RNA-Seq sample can be analysed at the same time. 
+
 `--out` specify the output directory where the results should be stored
 
 `--ann` functional annotation where one the first column contains gene IDs and the second column contains the functional annotation. Contains a header "Gene_ID\tAnnotation"
