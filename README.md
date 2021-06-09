@@ -18,20 +18,18 @@ Usage:
   
   Mandatory:
   
-  Input gene IDs
-  --in  STR gene IDs, one gene ID per line
-  
-  
-  --exp
+  Inputs 
+  --in     STR     gene IDs, one gene ID per line
+  --exp    STR     RNA-Seq count table, columns containing RNA-Seq sample IDs, rows gene IDs
   
   Output directory
-  --out            STR    Output directory
+  --out    STR     Output directory
   
   Optional:
-  --ann <FILE> 
+  --ann    STR     functional annotation file, first column gene IDs, second column functional annotation
 ```
 
---in <txt-file that contains a set of gene IDs for which co-expressed genes should be identified, where one gene ID is listed in one row.
---exp <count table containing e.g. the TPM values>
---ann <functional annotation where one coloum contains
---out <specify the output directory where the results should be stored>
+`--in` <txt-file that contains a set of gene IDs for which co-expressed genes should be identified, where one gene ID is listed in one row.
+`--exp` <count table containing e.g. the TPM values>
+`--ann` <functional annotation where one coloum contains
+`--out` <specify the output directory where the results should be stored>
