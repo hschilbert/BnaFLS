@@ -71,3 +71,20 @@ Usage:
 `--zscore` if given zscore normalization is activated
 
 All files should be provided in tab separated format if not stated otherwise.
+
+## pairwise_comp.py
+This script calculates pairwise amino acid sequence identities [%].
+
+```
+Usage:
+  python pairwise_comp.py --in <FILE> --out <FILE>
+  
+  Mandatory:
+  
+  Inputs 
+  --in     STR     FASTA file, containing amino acid sequences
+  
+  Output directory
+  --out    STR     Output file, where amino acid sequence identities [%] are listed
+  
+```
