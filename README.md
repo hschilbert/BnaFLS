@@ -9,8 +9,8 @@ scripts belonging to BnaFLSs publication
 
 Full paths should be used to specify input and output files and folders. Sequence names should not contain white space characters like spaces and TABs. Underscores can be used to replace spaces.
 
-## coexp_bn.py
-This script calculates co-expressed genes for a gene of interest (or a set of genes of interest) on the basis of a RNA-Seq count table and a functional annotation. 
+## assign_read_to_chr.py
+This script assigns reads to chromosomes based on a k-mer approach. 
 
 ```
 Usage:
