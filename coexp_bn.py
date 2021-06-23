@@ -1,6 +1,6 @@
 
 __usage__ = """
-					python coexp_bv.py
+					python coexp.py
 					--in <FULL_PATH_TO_CANDIDATE_FILE(one ID per line)>
 					--exp <FULL_PATH_TO_EXPRESSION_TABLE>
 					--ann <FULL_PATH_TO_ANNOTATION_FILE>
