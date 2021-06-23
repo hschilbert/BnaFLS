@@ -9,8 +9,8 @@ scripts belonging to BnaFLSs publication
 
 Full paths should be used to specify input and output files and folders. Sequence names should not contain white space characters like spaces and TABs. Underscores can be used to replace spaces.
 
-## assign_read_to_chr.py
-This script assigns reads to chromosomes based on a k-mer approach. 
+## coexp_bn.py
+This script identifies co-expressed genes. 
 
 ```
 Usage:
