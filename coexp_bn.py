@@ -75,7 +75,7 @@ def load_annotation( annotation_file ):
 def main( arguments ):
 	"""! @brief run everything """
 	
-	bv_expression_file = arguments[ arguments.index( '--exp' )+1 ]
+	expression_file = arguments[ arguments.index( '--exp' )+1 ]
 	output_prefix = arguments[ arguments.index( '--out' )+1 ]
 	candidate_gene_file = arguments[ arguments.index( '--in' )+1 ]
 	
@@ -91,7 +91,7 @@ def main( arguments ):
 	else:
 		annotation_mapping_table = {}
 	
-	gene_expression = load_expression_values( bv_expression_file )
+	gene_expression = load_expression_values( expression_file )
 	
 	high_impact_candidates = [ ]
 	
