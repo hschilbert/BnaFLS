@@ -1,5 +1,5 @@
 # BnaFLSs 
-scripts belonging to BnaFLSs publication
+scripts belonging to "Characterization of the Brassica napus flavonol synthase gene family reveals bifunctional flavonol synthases" https://doi.org/10.1101/2021.06.30.450533 
 
 ### Please get in touch if you need help running the scripts on your own data sets: [Hanna Schilbert (email)](mailto:hschilbe@cebitec.uni-bielefeld.de?subject=[GitHub]BnaFLSs_scripts_request) ###
 
